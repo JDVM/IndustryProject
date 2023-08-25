@@ -3,7 +3,8 @@ import './Dashboard.scss';
 
 
 import TierOne from '../../components/TierOne/TierOne';
-import TierTwo from '../../components/TierTwo/TierTwo';
+// import TierTwo from '../../components/TierTwo/TierTwo';
+// import TierThree from '../../components/TierThree/TierThree';
 
 function Dashboard() {
   return (
@@ -12,9 +13,12 @@ function Dashboard() {
       <div className="tier-container">
         <TierOne />
       </div>
-      <div className="tier-container">
+      {/* <div className="tier-container">
         <TierTwo />
       </div>
+      <div className="tier-container">
+        <TierThree />
+      </div> */}
     </div>
   );
 }

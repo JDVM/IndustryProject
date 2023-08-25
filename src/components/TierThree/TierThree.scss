@@ -1,0 +1,103 @@
+.tier-holder {
+  padding: 20px 25px;
+  margin: 0 0 30px;
+  border: 1px solid #ccc;
+ border-radius: 8px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  h2 {
+   font-size: 22px;
+   font-weight: bold;
+   padding: 0;
+   margin: 0;
+  }
+ }
+ 
+ .info {
+   display: flex;
+   justify-content: space-between;
+   h3 {
+     font-size: 18px;
+     font-weight: bold;
+     padding: 0;
+     margin: 0;
+   }
+   span {
+     font-size: 16px;
+     font-weight: bold;
+     a {
+       font-size: 16px;
+       font-weight: bold;
+       color: #000;
+     }
+   }
+ }
+ 
+.data {
+   display: flex;
+   flex-direction: column;
+   margin: 10px 0;
+   div {
+     font-size: 17px;
+   }
+ }
+ 
+ .apps-access {
+   margin: 20px 0;
+ }
+ .access-msg {
+   font-size: 18px;
+     font-weight: bold;
+     padding: 0 0 25px;
+     margin: 0;
+ }
+.tier-apps {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ padding: 0 0 30px;
+ .tier-app {
+   text-align: center;
+   .tier-app-icon {
+     padding: 0 0 7px;
+     img {
+       width: 60px;
+       height: 60px;
+       border-radius: 50%;
+     }
+   }
+   .app-name {
+     text-align: center;
+     font-size: 15px;
+   }
+ }
+}
+.edit-btn {
+ button {
+   background: none;
+   height: initial;
+   width: initial;
+   font-size: 16px;
+   font-weight: bold;
+   cursor: pointer;
+ }
+}
+.edit-text {
+ text-align: center;
+ padding: 0 0 15px;
+ button {
+   background: none;
+   border: 1px solid #ccc;
+   padding: 4px 30px;
+   box-sizing: border-box;
+   min-width: 180px;
+   margin: 0 auto;
+   height: initial;
+   border-radius: 0px;
+   cursor: pointer;
+   &:hover {
+     background: #ccc;
+     color: #000;
+   }
+ }
+}
+ 

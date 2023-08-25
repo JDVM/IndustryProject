@@ -18,9 +18,14 @@
     }
 
     .logo {
-      margin: 0 auto;
-      font-size: 23px;
-      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 15%;
+      }
     }
     .back-btn {
       button {
