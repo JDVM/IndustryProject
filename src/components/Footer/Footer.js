@@ -3,7 +3,7 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <>
-      <div className="footer">© InStock Inc. All Rights Reserved.</div>
+      <div className="footer">© Information Sharing Inc. All Rights Reserved.</div>
     </>
   );
 };
