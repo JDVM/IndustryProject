@@ -1,0 +1,45 @@
+.app-information {
+    padding: 1rem;
+
+    &__icon {
+        min-width: 1.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    &__edit {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__header {
+        display: flex;
+    }
+
+    &__title {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+    }
+
+    &__app-name {
+        margin: 0 1rem;
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+
+    &__information-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__button-container{
+        display: flex;
+        flex-direction: column;
+    }
+    &__button{
+        border-radius: 1.25rem;
+        border: 1px solid;
+        margin: .5rem 1.5rem;
+        padding:.5rem 0;
+    }
+}
